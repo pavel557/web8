@@ -1,0 +1,116 @@
+.navbar {
+    overflow: hidden;
+    background-color: #5E6A7A;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: "RussoOne-Regular";
+    color: #F28B30;
+    font-size: 35px;
+    margin-left:-10px;
+    margin-top: -10px;
+}
+
+.color-f28b30 {
+  color: #F28B30;
+  margin-top: 100px;
+}
+
+ h1 {
+   font-family: "RussoOne-Regular";
+   text-shadow: 2px 2px 0px #000000;
+   text-align:center;
+ }
+
+ /*input:valid {
+   border-color: green;
+ }
+
+ input:invalid {
+   border-color: red;
+ }*/
+
+ input.err
+ {
+   border-color: red;
+ }
+
+ h2 {
+   font-family: "RussoOne-Regular";
+ }
+
+p {
+   font-family: "RussoOne-Regular";
+ }
+
+ li{
+   font-family: "RussoOne-Regular";
+ }
+
+ .block-1 {
+   border: 4mm ridge #F28B30;
+   margin: 25px;
+   padding: 25px;
+   background-color: #FFFFFF;
+
+ }
+
+ .h2-center {
+   text-align:center;
+ }
+
+ span {
+   font-style: italic;
+ }
+ body{
+   margin-top: 50px;
+ }
+
+ .button{
+   word-spacing:20px;
+   user-select: none;
+	text-decoration: none;
+  te
+	outline: none;
+  border: 2px;
+  text-decoration-color: #FFF;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+  word-spacing: 2px;
+ }
+
+ @font-face {
+ font-family: "RussoOne-Regular";
+ src: url("RussoOne-Regular.ttf") format("truetype");
+ font-style: normal;
+ font-weight: normal;
+}
+
+a:link {
+  color: #000000;
+}
+a:visited {
+  color: #F28B30;
+}
+a:hover {
+  color: #F8D492;
+}
+a:active {
+  color: #F28B30;
+}
+
+.anim-slodein {
+  animation-duration: 0.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: -20px;
+  }
+
+  to {
+    margin-left: 0px;
+  }
+}
